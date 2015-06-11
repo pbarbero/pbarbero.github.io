@@ -1,2 +1,3 @@
-# pbarbero.github.io
-github page
+# GitHub wepage
+Updated CV
+http://pbarbero.github.io/
