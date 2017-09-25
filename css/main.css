@@ -111,9 +111,9 @@ span.amp{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","
 /* DEFAULT MOBILE STYLE */
 body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 /* column grid */
-.g1,.g2,.g3{display:block; position: relative; margin-left: 1%; margin-right: 1%}
+.g1,.g2,.g3,.g12{display:block; position: relative; margin-left: 1%; margin-right: 1%}
 /* 1 column grid */
-.g1,.g2,.g3{width:98.0%}
+.g1,.g2,.g3,.g12{width:98.0%}
 
 /* Wrapper */
 .main{
@@ -669,9 +669,10 @@ Change widths as necessary
    border-left: 1px solid #f1f1f1;
  }
  /* COLUMN GRID */
- .g1,.g2,.g3 {display:inline; float: left}
+ .g1,.g2,.g3,.g12 {display:inline; float: left}
 
  /* 2 COLUMN GRID */
+ .g12 {width:48.0%}
  .g1 {width:48.0%}
  .g2 {width:48.0%}
  .g3 {width:98.0%}
@@ -696,8 +697,8 @@ Change widths as necessary
   padding-top: 20px;
 }
   /* 3 COLUMN GRID */
-  /*.g1 {width:31.333%}*/
-  .g1{width:47%;}
+  .g1 {width:31.333%}
+  .g12{width:46%;}
   .g2 {width:64.667%;}
   .g3 {width:98.0%}
 }
